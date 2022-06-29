@@ -1,7 +1,6 @@
 *{
     box-sizing: border-box;
 }
-
 .logo{
     height: 69px;
     width: 100%;
@@ -17,23 +16,34 @@
     font-weight: 700;
     font-size: 37px;
     line-height: 43px;
-
 }
-
 .corpo{
     background-color: bisque;
+    height: 100%;
+    width: 100%;
     display: column;
     justify-content: center;
     align-items: center;
 }
-.corpinho{    
+.corpinho{
     width: 1051px;
-    height: 181px;
-    margin-top: 80px;
+    height: auto;
 }
-
-.criarquiz{
+.criarquizz{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    border: gray solid 3px;
+    margin-top: 80px;
+}
+.alinharcriar{
+    display: column;
+    justify-content: center;
+    align-items: center;
+}
+.naocriou{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
 }
