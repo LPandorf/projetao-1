@@ -29,8 +29,9 @@
     align-items: center;
 }
 .corpinho{    
-    width: 100%;
+    width: 1500px%;
     height: auto;
+    background-color: aqua;
 }
 
 .criarquizz{
@@ -57,4 +58,15 @@
     font-size: 20px;
     line-height: 23px;
 
+}
+.margem{
+    height: 77px;
+}
+.palavras{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: black;
 }
