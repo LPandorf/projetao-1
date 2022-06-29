@@ -77,4 +77,21 @@
     font-size: 20px;
     line-height: 23px;
     color: black;
+    margin-bottom: 10px;
+}
+.quizz{
+    width: 340px;
+    height: 181px;
+    display: block;
+    position: relative;
+}
+.img{
+    width: 340px;
+    height: 181px;
+    border-radius: 5px;
+    
+}
+
+.titulo{
+    position: absolute;
 }
