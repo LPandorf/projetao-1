@@ -49,6 +49,7 @@
     display: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 .naocriou{
     font-family: 'Roboto';
@@ -56,5 +57,9 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
+    color: #B9B9B9;
+}
 
+.naocriou > br{
+    color: #B9B9B9;
 }
