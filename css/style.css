@@ -65,8 +65,16 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-
+    color: #B9B9B9;
+    margin-bottom: 55px;
 }
+
+.texto2{
+    text-align: center;
+}
+
+
+
 .margem{
     height: 77px;
 }
