@@ -111,4 +111,11 @@
     position: absolute;
     margin-top: 150px;
     margin-left: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+
+    color: #FFFFFF;
 }
