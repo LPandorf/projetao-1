@@ -21,9 +21,12 @@
 }
 
 .corpo{
+    background-color: bisque;
     display: column;
     justify-content: center;
-    align-items: centerS;
+    align-items: center;
+}
+.corpinho{    
     width: 1051px;
     height: 181px;
 }
