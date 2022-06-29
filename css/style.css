@@ -66,7 +66,7 @@
     font-size: 20px;
     line-height: 23px;
     color: #B9B9B9;
-    margin-bottom: 20px;
+    margin-bottom: 55px;
 }
 
 .texto2{
@@ -85,6 +85,7 @@
 
 }
 
+
 .margem{
     height: 77px;
 }
@@ -98,10 +99,14 @@
     margin-bottom: 10px;
 }
 .quizes{
-    display: flex ;
-    flex-direction: column;
+    display: column;
+}
+.dividindo{
+    display: flex;
 }
 .quizz{
+    margin-left: 8px;
+    margin-bottom: 10px;
     width: 340px;
     height: 181px;
     display: flex;
@@ -115,4 +120,6 @@
 
 .titulo{
     position: absolute;
+    margin-top: 150px;
+    margin-left: 10px;
 }
