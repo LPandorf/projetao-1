@@ -66,8 +66,7 @@
     font-size: 20px;
     line-height: 23px;
     color: #B9B9B9;
-    margin-bottom: 1px;
-}
+    margin-bottom: 80px;}
 
 .texto2{
     text-align: center;
@@ -75,15 +74,13 @@
 
 .btcriarquizz{
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     color: #EC362D;
     font-size: 21px;
     border: 1px dashed #EC362D;
     border-radius: 50px;
-    margin-top: 20px;
+    margin-left: 50px;
+    text-;
+
 }
 
 
