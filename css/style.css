@@ -87,11 +87,14 @@
     color: black;
     margin-bottom: 10px;
 }
+.quizes{
+    display: flex ;
+    flex-direction: column;
+}
 .quizz{
     width: 340px;
     height: 181px;
-    display: block;
-    position: relative;
+    display: flex;
 }
 .img{
     width: 340px;
