@@ -33,9 +33,14 @@
     height: auto;
 }
 
-.criarquiz{
+.criarquizz{
     border: gray solid 3px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+
 }
+
 .alinharcriar{
     display: column;
     justify-content: center;
