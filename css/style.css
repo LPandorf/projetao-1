@@ -80,6 +80,9 @@
     margin-bottom: 15px;
     color: #EC362D;
     font-size: 21px;
+    border: 1px dashed #EC362D;
+    border-radius:50px;
+
 }
 
 .margem{
