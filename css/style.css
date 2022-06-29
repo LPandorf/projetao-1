@@ -21,27 +21,25 @@
 }
 
 .corpo{
-    
+    background-color: bisque;
     height: 100%;
     width: 100%;
     display: column;
     justify-content: center;
     align-items: center;
+    position: fixed;
 }
 .corpinho{    
-<<<<<<< Updated upstream
-    width: 1500px%;
-    height: auto;
-    background-color: aqua;
-=======
-    background-color: aqua;
     width: 1051px;
     height: auto;
-    background-color: bisque;
+    background-color: aqua;
+    margin: auto;
+    
     display: column;
     justify-content: center;
-    
->>>>>>> Stashed changes
+    align-items: center;
+
+    position: relative;
 }
 
 .criarquizz{
@@ -60,7 +58,6 @@
     display: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
 }
 .naocriou{
     font-family: 'Roboto';
@@ -68,11 +65,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-    color: #B9B9B9;
-}
 
-.naocriou > br{
-    color: #B9B9B9;
 }
 .margem{
     height: 77px;
