@@ -29,4 +29,11 @@
 .corpinho{    
     width: 1051px;
     height: 181px;
+    margin-top: 80px;
+}
+
+.criarquiz{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
