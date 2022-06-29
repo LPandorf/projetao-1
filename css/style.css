@@ -6,6 +6,9 @@
     height: 69px;
     width: 100%;
     background-color: #EC362D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .nome{
     color: white;
