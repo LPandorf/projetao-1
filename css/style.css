@@ -21,7 +21,7 @@
 }
 
 .corpo{
-    background-color: bisque;
+    
     height: 100%;
     width: 100%;
     display: column;
@@ -29,9 +29,19 @@
     align-items: center;
 }
 .corpinho{    
+<<<<<<< Updated upstream
     width: 1500px%;
     height: auto;
     background-color: aqua;
+=======
+    background-color: aqua;
+    width: 1051px;
+    height: auto;
+    background-color: bisque;
+    display: column;
+    justify-content: center;
+    
+>>>>>>> Stashed changes
 }
 
 .criarquizz{
