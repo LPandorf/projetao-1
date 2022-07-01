@@ -446,7 +446,7 @@ body{
     margin-right: 20px;
     width: 294px;
     height: 203px;
-    object-fit: cover;
+    object-fit: fill;
 
 }
 .acerto{
