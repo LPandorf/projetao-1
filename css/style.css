@@ -448,6 +448,7 @@ body{
     font-size: 23px;
     line-height: 27px;
     margin: auto;
+<<<<<<< HEAD
     object-fit: cover;}
 
 .caixapergunta2{
@@ -468,4 +469,6 @@ body{
     font-weight: 700;
     font-size: 23px;
     line-height: 26px;
+=======
+>>>>>>> 68d3100133e857771e34a7deb230715e757a7e78
 }
