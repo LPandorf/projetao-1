@@ -399,4 +399,5 @@ body{
     width: 500px;
 height: 266px;
 border-radius: 5px;
+    object-fit: cover;
 }
