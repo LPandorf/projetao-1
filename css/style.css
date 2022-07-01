@@ -22,6 +22,17 @@ body{
 
 }
 
+.fundoquizz{
+    width: 100%;
+    height: 227px;
+    top: 69px;
+}
+
+.fundoquizz img{
+    width: 100%;
+    height: 227px;
+}
+
 .corpo{
     background-color: #E5E5E5;
     height: 100%;
@@ -152,9 +163,9 @@ body{
     font-weight: 400;
     font-size: 1px;
     line-height: 22px;
-
     color: #FFFFFF;
 }
+
 .mais{
     color: #EC362D;
     width: 31px;
