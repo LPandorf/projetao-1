@@ -332,9 +332,11 @@ body{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 23px;
-    line-height: 27px;
-    color: #D1D1D1;
+    font-size: 21px;
+    line-height: 25px;
+
+    color: #818181;
+
 }
 
 .img2{
@@ -344,4 +346,16 @@ body{
 }
 .quizzpronto{
     margin-left: 355px;
+}
+.textoquizz2{
+    position: absolute;
+    top: 0;
+    left: 330;
+    color: white;
+    font-weight: 400;
+    font: 'Roboto';
+    font-size: 17px;
+    text-align: center;
+    margin-top: 100px;
+    line-height: 350px;
 }
