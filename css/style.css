@@ -96,6 +96,20 @@ body{
     line-height: 26px;
 }
 
+.opcoes{
+    display: column;
+}
+.dividindo_opcoes{
+    display: flex;
+}
+.perguntas_quizz{
+    margin-left: 8px;
+    margin-bottom: 10px;
+    width: 340px;
+    height: 181px;
+    display: flex;
+}
+
 .todososquizzes{
       
     width: 1051px;
