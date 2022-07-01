@@ -29,9 +29,25 @@ body{
 }
 
 .fundoquizz img{
+    margin: auto;
     width: 100%;
     height: 227px;
 }
+
+.textoquizz{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    font-weight: 400;
+    font: 'Roboto';
+    font-size: 39px;
+    text-align: center;
+    line-height: 350px;
+}
+
+
 
 .corpo{
     background-color: #E5E5E5;
@@ -57,6 +73,15 @@ body{
 
     position: relative;
 }
+
+.caixapergunta{
+    position: fixed;
+    margin: auto;
+    width: 688px;
+    height: 137px;
+    color: #434ca0
+}
+
 .todososquizzes{
       
     width: 1051px;
@@ -155,6 +180,7 @@ body{
 }
 
 .titulo{
+    display: inline-block;
     position: absolute;
     margin-top: 150px;
     margin-left: 10px;
