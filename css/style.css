@@ -432,7 +432,6 @@ body{
 .img4{
     width: 330px;
     height: 176px;
-<<<<<<< HEAD
     object-fit: cover;
 }
 
@@ -449,26 +448,4 @@ body{
     font-size: 23px;
     line-height: 27px;
     margin: auto;
-=======
-    object-fit: cover;}
-
-.caixapergunta2{
-    width: 688px;
-    height: 137px;
-    margin: auto;
-    background-color: #434ca0;
-    margin-top: 60px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.textopergunta2{
-    display: flex;
-    font: 'Roboto';
-    font-weight: 700;
-    font-size: 23px;
-    line-height: 26px;
->>>>>>> e26f1f3156cf7ec507070ade9cac3ddd60deb1b9
 }
