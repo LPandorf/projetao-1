@@ -3,7 +3,7 @@
 }
 body{
     background-color: #E5E5E5;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 .logo{
     height: 69px;
@@ -76,11 +76,22 @@ body{
 }
 
 .caixapergunta{
-    position: fixed;
-    margin: auto;
     width: 688px;
     height: 137px;
-    color: #434ca0
+    margin: auto;
+    background-color: #434ca0;
+    margin-top: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textopergunta{
+    font: 'Roboto';
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 26px;
 }
 
 .todososquizzes{
