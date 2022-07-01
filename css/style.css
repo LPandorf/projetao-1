@@ -435,15 +435,10 @@ body{
     object-fit: cover;
 }
 
-.imgper{
-    width: 330px;
-    height: 165px;
-    object-fit: cover;
-}
-
 .img5{
     width: 364px;
     height: 273px;
+    object-fit: cover;
 
 }
 .acerto{
@@ -474,4 +469,15 @@ body{
     font-weight: 700;
     font-size: 23px;
     line-height: 26px;
+}
+.textofinal{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 25px;
+    /* or 132% */
+
+
+    color: #484848;
 }
