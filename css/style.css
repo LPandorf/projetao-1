@@ -301,3 +301,32 @@ body{
     align-items: center;
 
 }
+
+.voltar{
+    margin: auto;
+    margin-left: 440px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+
+    width: 224px;
+    height: 27px;
+    left: 608px;
+    top: 140px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 27px;
+    color: #D1D1D1;
+}
+
+.img2{
+    width: 340px;
+    height: 181px;
+    border-radius: 5px;
+}
+.quizzpronto{
+    margin-left: 300px;
+}
