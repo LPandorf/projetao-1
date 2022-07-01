@@ -346,3 +346,15 @@ body{
 .quizzpronto{
     margin-left: 355px;
 }
+.textoquizz2{
+    position: absolute;
+    top: 0;
+    left: 330;
+    color: white;
+    font-weight: 400;
+    font: 'Roboto';
+    font-size: 17px;
+    text-align: center;
+    margin-top: 100px;
+    line-height: 350px;
+}
