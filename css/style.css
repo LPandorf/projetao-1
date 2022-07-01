@@ -162,15 +162,26 @@ body{
 }
 .comece{
     margin: auto;
+    margin-left: 410px;
     display: inline;
     justify-content: center;
     align-items: center;
-}
-.retantulao{
-    width: 600px;
-    height: 256px;
 
-    margin: auto;
+    width: 224px;
+    height: 27px;
+    left: 608px;
+    top: 140px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 27px;
+}
+
+.retantulao{
+    width: 900px;
+    height: 256px;
 
     background-color: #FFFFFF;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
@@ -181,8 +192,46 @@ body{
     height: 46px;
 
     margin: auto;
+    margin-top: 5px;
 
     background: #FFFFFF;
     border: 1px solid #D1D1D1;
     border-radius: 5px;
+}
+.insira{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+
+    color: #BABABA;
+    margin-top: 10px;
+    margin-left: 4px;
+
+    display: flex;
+    align-items: center;
+}
+.margempequena{
+    height: 20px;
+}
+.prosseguir{
+    
+    width: 368px;
+    height: 58px;
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 21px;
+    background-color: #EC362D;
+    border: 2px solid #EC362D;
+    border-radius: 15px;
+    margin-left: 35px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    
+    left: 340px;
 }
