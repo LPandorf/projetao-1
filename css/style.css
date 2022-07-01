@@ -442,8 +442,9 @@ body{
 }
 
 .img5{
-    width: 364px;
-    height: 273px;
+    margin-left: 20px;
+    width: 294px;
+    height: 203px;
     object-fit: cover;
 
 }
@@ -455,7 +456,11 @@ body{
     font-size: 23px;
     line-height: 27px;
     margin: auto;
-    object-fit: cover;}
+    object-fit: cover;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
 
 .caixapergunta2{
     width: 688px;
@@ -477,6 +482,7 @@ body{
     line-height: 26px;
 }
 .textofinal{
+    margin-left: 0;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
