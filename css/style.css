@@ -112,6 +112,12 @@ body{
     width: 340px;
     height: 181px;
     display: flex;
+    flex-direction: column;
+}
+.textoimgpergunta{
+    height: 50px;
+    width: 150px;
+    color: #000000;
 }
 
 .todososquizzes{
