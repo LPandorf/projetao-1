@@ -101,9 +101,10 @@ body{
 }
 .dividindo_opcoes{
     display: flex;
+    justify-content: center;
 }
 .perguntas_quizz{
-    margin-left: 8px;
+    margin-top: 20px;
     margin-bottom: 10px;
     width: 340px;
     height: 181px;
