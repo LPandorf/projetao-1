@@ -443,6 +443,7 @@ body{
 
 .img5{
     margin-left: 20px;
+    margin-right: 20px;
     width: 294px;
     height: 203px;
     object-fit: cover;
@@ -483,6 +484,7 @@ body{
 }
 .textofinal{
     margin: auto;
+    margin-top: 10px;
     margin-left: 0;
     font-family: 'Roboto';
     font-style: normal;
@@ -490,6 +492,8 @@ body{
     font-size: 19px;
     line-height: 25px;
     /* or 132% */
+    display: flex;
+    align-items: top;
 
 
     color: #484848;
