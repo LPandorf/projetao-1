@@ -3,6 +3,7 @@
 }
 body{
     background-color: #E5E5E5;
+    overflow: scroll;
 }
 .logo{
     height: 69px;
@@ -245,4 +246,19 @@ body{
 
     
     left: 340px;
+}
+
+.palavrasdois{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: black;
+    margin-top: 28px;
+    margin-bottom: 24px;
+    margin-left: 243px;
+    display: flex;
+    align-items: center;
+
 }
