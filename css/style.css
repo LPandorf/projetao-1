@@ -208,21 +208,21 @@ body{
     width: 340px;
     height: 181px;
     border-radius: 5px;
-    
 }
 
 .titulo{
     display: inline-block;
+    width: max-content;
+    height: 54px;
     position: absolute;
     margin-top: 150px;
     margin-left: 10px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 1px;
+    font-size: 19px;
     line-height: 22px;
-    color: #FFFFFF;
-}
+    color: #FFFFFF;}
 
 .mais{
     color: #EC362D;
