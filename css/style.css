@@ -3,7 +3,7 @@
 }
 body{
     background-color: #E5E5E5;
-    overflow-y: scroll;
+    /*overflow: scroll;*/
 }
 .logo{
     height: 69px;
