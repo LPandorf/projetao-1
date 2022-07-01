@@ -99,7 +99,8 @@ body{
 }
 
 .opcoes{
-    display: column;
+    display: flex;
+    flex-direction: column;
 }
 .dividindo_opcoes{
     display: flex;
