@@ -354,6 +354,9 @@ body{
 .quizzpronto{
     margin-left: 355px;
 }
+.quizzpronto2{
+    margin-left: 270px;
+}
 .textoquizz2{
     position: absolute;
     top: 0;
@@ -367,6 +370,19 @@ body{
     margin-left: 10px;
     line-height: 350px;
 }
+.textoquizz3{
+    position: absolute;
+    left: 330;
+    color: white;
+    font-weight: 400;
+    font: 'Roboto';
+    font-size: 17px;
+    text-align: center;
+    margin-left: 10px;
+    top: 190px;
+    margin-bottom: 10px;
+    line-height: 350px;
+}
 .iconeeditar{
     margin-top: 28px;
     margin-bottom: 24px;
@@ -378,4 +394,9 @@ body{
 .deixarladoalado{
     display: flex;
     justify-content: space-between;
+}
+.img3{
+    width: 500px;
+height: 266px;
+border-radius: 5px;
 }
