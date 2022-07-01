@@ -208,6 +208,7 @@ body{
     width: 340px;
     height: 181px;
     border-radius: 5px;
+    object-fit: cover;
 }
 
 .titulo{
