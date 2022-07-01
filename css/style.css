@@ -73,13 +73,21 @@
 }
 
 .btcriarquizz{
-    width: 200 px;
+    width: 151px;
+    height: 40px;
     position: absolute;
     color: #EC362D;
     font-size: 21px;
     border: 2px dashed #EC362D;
     border-radius: 50px;
-    margin-left: 50px;
+    margin-left: 35px;
+}
+
+.criarbotao{
+
+    margin-top: 8px;
+    margin-left: 25px;
+
 }
 
 .margem{
