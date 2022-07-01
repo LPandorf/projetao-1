@@ -3,11 +3,7 @@
 }
 body{
     background-color: #E5E5E5;
-<<<<<<< HEAD
-    /*overflow: scroll;*/
-=======
     overflow-y: scroll;
->>>>>>> 36d9a38f4944c8f33e0b4c759c637aeb98302204
 }
 .logo{
     height: 69px;
