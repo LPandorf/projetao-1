@@ -482,6 +482,7 @@ body{
     line-height: 26px;
 }
 .textofinal{
+    margin: auto;
     margin-left: 0;
     font-family: 'Roboto';
     font-style: normal;
