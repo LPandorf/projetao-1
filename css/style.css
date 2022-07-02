@@ -316,7 +316,7 @@ body{
 }
 .voltar{
     margin: auto;
-    margin-left: 440px;
+    
     display: inline;
     justify-content: center;
     align-items: center;
@@ -569,6 +569,8 @@ body{
         display: flex;
         flex-direction: column;
     }
+
+
 }
 
 
