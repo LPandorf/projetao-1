@@ -555,6 +555,13 @@ body{
 
 
 @media (max-width:1100px){
+    
+    .corpo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
     .corpinho{
         width: 100%;
     }
@@ -564,6 +571,7 @@ body{
         flex-direction: column;
 
     }
+<<<<<<< HEAD
     .textofinal{
         width: 100%;
         display: flex;
@@ -571,6 +579,10 @@ body{
     }
 
 
+=======
+    
+    
+>>>>>>> 16d6c5a6b6e6169ea53ea3f37a479fdb5f51fcab
 }
 
 
