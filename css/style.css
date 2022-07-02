@@ -563,6 +563,11 @@ body{
         flex-direction: column;
 
     }
+    .textofinal{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
