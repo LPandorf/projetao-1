@@ -555,6 +555,13 @@ body{
 
 
 @media (max-width:1100px){
+    
+    .corpo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
     .corpinho{
         width: 100%;
     }
@@ -564,11 +571,8 @@ body{
         flex-direction: column;
 
     }
-    .textofinal{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
+    
+    
 }
 
 
