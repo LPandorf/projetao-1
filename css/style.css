@@ -557,6 +557,12 @@ body{
     .corpinho{
         width: 100%;
     }
+    .dividindo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
 }
 
 
