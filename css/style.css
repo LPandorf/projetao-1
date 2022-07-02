@@ -421,7 +421,7 @@ body{
 
 .comece{
     margin: auto;
-    margin-left: 410px;
+    width: 100%;
     display: inline;
     justify-content: center;
     align-items: center;
@@ -495,7 +495,8 @@ body{
 /*---------------*/
 /*page7*/
 .quizzpronto2{
-    margin-left: 270px;
+    display: flex;
+    justify-content: center;
 }
 .textoquizz3{
     position: absolute;
