@@ -5,6 +5,10 @@ body{
     background-color: #E5E5E5;
     /*overflow: scroll;*/
 }
+
+
+/*---------------*/
+/*topo com o nome buzzquizz*/
 .logo{
     height: 69px;
     width: 100%;
@@ -22,36 +26,66 @@ body{
     line-height: 43px;
 
 }
+/*--------------*/
 
-.fundoquizz{
-    width: 100%;
-    height: 227px;
-    top: 69px;
-}
 
-.fundoquizz img{
-    margin: auto;
-    width: 100%;
-    height: 227px;
+/*--------------*/
+/* tudo de imagens*/
+/*page 1 e 2*/
+.img{
+    width: 340px;
+    height: 181px;
+    border-radius: 5px;
     object-fit: cover;
-    background: linear-gradient(150deg, rgba(0, 0, 0, 1) 100% , rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 65.62%, rgba(0, 0, 0, 0.8) 100%);
+
 }
-
-.textoquizz{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    color: white;
-    font-weight: 400;
-    font: 'Roboto';
-    font-size: 39px;
-    text-align: center;
-    line-height: 350px;
+/*page 7*/
+.img3{
+    width: 500px;
+    height: 266px;
+    border-radius: 5px;
+    object-fit: cover;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 65.62%, rgba(0, 0, 0, 0.8) 100%);
 }
+/*page 3*/
+.img4{
+    width: 330px;
+    height: 176px;
+    object-fit: cover;
+}
+.img5{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 294px;
+    height: 203px;
+    object-fit: fill;
+
+}
+.imgper{
+    width: 330px;
+    height: 164.1px;
+    object-fit: cover;
+}
+/*--------------*/
 
 
+/*---------------*/
+/*margens*/
+.margem{
+    height: 77px;
+}
+.margempequena{
+    height: 20px;
+}
+.margemmenor{
+    height: 10px;
+}
+/*---------------*/
 
+
+/*---------------*/
+/*em todas as pages*/
 .corpo{
     background-color: #E5E5E5;
     height: auto;
@@ -78,68 +112,10 @@ body{
     position: relative;
     
 }
+/*--------------*/
 
-.caixapergunta{
-    width: 688px;
-    height: 137px;
-    margin: auto;
-    background-color: #434ca0;
-    margin-top: 60px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.textopergunta{
-    font: 'Roboto';
-    font-weight: 700;
-    font-size: 23px;
-    line-height: 26px;
-}
-
-.opcoes{
-    display: flex;
-    flex-direction: column;
-}
-.dividindo_opcoes{
-    display: flex;
-    justify-content: center;
-}
-.perguntas_quizz{
-    margin-top: 20px;
-    margin-bottom: 10px;
-    width: 340px;
-    height: 181px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.textoimgpergunta{
-    height: 50px;
-    width: 200px;
-    color: #000000;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
-    margin-top: 5px;
-}
-
-.todososquizzes{
-      
-    width: 1051px;
-    height: auto;
-    margin: auto;
-    
-    display: column;
-    justify-content: center;
-    align-items: center;
-    
-    position: relative;
-
-}
+/*-------------*/
+/*page 1*/
 .criarquizz{
     width: 100%;
     height: 180px;
@@ -188,9 +164,18 @@ body{
     margin-left: 25px;
 
 }
+.todososquizzes{
+      
+    width: 1051px;
+    height: auto;
+    margin: auto;
+    
+    display: column;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
 
-.margem{
-    height: 77px;
 }
 .palavras{
     font-family: 'Roboto';
@@ -217,14 +202,6 @@ body{
     height: 181px;
     display: flex;
 }
-.img{
-    width: 340px;
-    height: 181px;
-    border-radius: 5px;
-    object-fit: cover;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 65.62%, rgba(0, 0, 0, 0.8) 100%);
-
-}
 
 .titulo{
     display: inline-block;
@@ -240,30 +217,65 @@ body{
     line-height: 22px;
     color: #FFFFFF;}
 
+/*-------------*/
+
+
+
+/*------------*/
+/*page 2*/
 .mais{
     color: #EC362D;
     width: 31px;
     height: 30px;
 }
-.comece{
-    margin: auto;
-    margin-left: 410px;
-    display: inline;
+/*-------------*/
+
+
+
+/*--------------*/
+/*page 3*/
+
+.textoquizz{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    font-weight: 400;
+    font: 'Roboto';
+    font-size: 39px;
+    text-align: center;
+    line-height: 350px;
+}
+.opcoes{
+    display: flex;
+    flex-direction: column;
+}
+
+.dividindo_opcoes{
+    display: flex;
     justify-content: center;
+}
+.perguntas_quizz{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 340px;
+    height: 181px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-
-    width: 224px;
-    height: 27px;
-    left: 608px;
-    top: 140px;
-
+}
+.textoimgpergunta{
+    height: 50px;
+    width: 200px;
+    color: #000000;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 23px;
-    line-height: 27px;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 5px;
 }
-
 .retangulao{
     width: 600px;
     height: auto;
@@ -271,18 +283,6 @@ body{
 
     background-color: #FFFFFF;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
-}
-.retangulo{
-    box-sizing: border-box;
-    width: 564px;
-    height: 46px;
-
-    margin: auto;
-    margin-top: 5px;
-
-    background: #FFFFFF;
-    border: 1px solid #D1D1D1;
-    border-radius: 5px;
 }
 .retangulovermelho{
     box-sizing: border-box;
@@ -293,26 +293,6 @@ body{
     margin-top: 5px;
 
     background:#EC362D;
-}
-.insira{
-    font-family: 'Roboto';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 22px;
-
-    color: #BABABA;
-    margin-top: 10px;
-    margin-left: 4px;
-
-    display: flex;
-    align-items: center;
-}
-.margempequena{
-    height: 20px;
-}
-.margemmenor{
-    height: 10px;
 }
 .prosseguir{
     
@@ -334,22 +314,6 @@ body{
     
     left: 340px;
 }
-
-.palavrasdois{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
-    color: black;
-    margin-top: 28px;
-    margin-bottom: 24px;
-    margin-left: 20px;
-    display: flex;
-    align-items: center;
-
-}
-
 .voltar{
     margin: auto;
     margin-left: 440px;
@@ -371,83 +335,9 @@ body{
     color: #818181;
 
 }
-
-.img2{
-    width: 340px;
-    height: 181px;
-    border-radius: 5px;
-}
-.quizzpronto{
-    margin-left: 355px;
-}
-.quizzpronto2{
-    margin-left: 270px;
-}
-.textoquizz2{
-    position: absolute;
-    top: 0;
-    left: 330;
-    color: white;
-    font-weight: 400;
-    font: 'Roboto';
-    font-size: 17px;
-    text-align: center;
-    margin-top: 100px;
-    margin-left: 10px;
-    line-height: 350px;
-}
-.textoquizz3{
-    position: absolute;
-    left: 330;
-    color: white;
-    font-weight: 400;
-    font: 'Roboto';
-    font-size: 17px;
-    text-align: center;
-    margin-left: 10px;
-    top: 190px;
-    margin-bottom: 10px;
-    line-height: 350px;
-}
-.iconeeditar{
-    margin-top: 28px;
-    margin-bottom: 24px;
-    margin-right: 10px;
-    color: #000000;
-    width: 26px;
-    height: 23px;
-}
 .deixarladoalado{
     display: flex;
     justify-content: space-between;
-}
-.img3{
-    width: 500px;
-    height: 266px;
-    border-radius: 5px;
-    object-fit: cover;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 65.62%, rgba(0, 0, 0, 0.8) 100%);
-}
-
-.img4{
-    width: 330px;
-    height: 176px;
-    object-fit: cover;
-}
-
-.imgper{
-    width: 330px;
-    height: 164.1px;
-    object-fit: cover;
-}
-
-.img5{
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 294px;
-    height: 203px;
-    object-fit: fill;
-
 }
 .acerto{
     color: #FFFFFF;
@@ -461,7 +351,18 @@ body{
     margin-left: 20px;
     margin-top: 10px;
 }
-
+.fundoquizz{
+    width: 100%;
+    height: 227px;
+    top: 69px;
+}
+.fundoquizz img{
+    margin: auto;
+    width: 100%;
+    height: 227px;
+    object-fit: cover;
+    background: linear-gradient(150deg, rgba(0, 0, 0, 1) 100% , rgba(0, 0, 0, 1) 100%);
+}
 
 .caixapergunta2{
     width: 688px;
@@ -498,3 +399,164 @@ body{
 
     color: #484848;
 }
+.caixapergunta{
+    width: 688px;
+    height: 137px;
+    margin: auto;
+    background-color: #434ca0;
+    margin-top: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*---------------*/
+
+
+
+
+
+/*------------*/
+/*page4*/
+
+.comece{
+    margin: auto;
+    margin-left: 410px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+
+    width: 224px;
+    height: 27px;
+    left: 608px;
+    top: 140px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 27px;
+}
+
+.retangulo{
+    box-sizing: border-box;
+    width: 564px;
+    height: 46px;
+
+    margin: auto;
+    margin-top: 5px;
+
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+}
+.insira{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+
+    color: #BABABA;
+    margin-top: 10px;
+    margin-left: 4px;
+
+    display: flex;
+    align-items: center;
+}
+/*---------------*/
+/*-------------*/
+/*page5*/
+.palavrasdois{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: black;
+    margin-top: 28px;
+    margin-bottom: 24px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+
+}
+.iconeeditar{
+    margin-top: 28px;
+    margin-bottom: 24px;
+    margin-right: 10px;
+    color: #000000;
+    width: 26px;
+    height: 23px;
+}
+
+/*---------------*/
+
+/*---------------*/
+/*page7*/
+.quizzpronto2{
+    margin-left: 270px;
+}
+.textoquizz3{
+    position: absolute;
+    left: 330;
+    color: white;
+    font-weight: 400;
+    font: 'Roboto';
+    font-size: 17px;
+    text-align: center;
+    margin-left: 10px;
+    top: 190px;
+    margin-bottom: 10px;
+    line-height: 350px;
+}
+/*--------------*/
+
+
+
+
+/*nao achei*/
+/*
+.img2{
+    width: 340px;
+    height: 181px;
+    border-radius: 5px;
+}
+*/
+/*
+.textopergunta{
+    font: 'Roboto';
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 26px;
+}*/
+/*
+.quizzpronto{
+    margin-left: 355px;
+}*/
+/*
+.textoquizz2{
+    position: absolute;
+    top: 0;
+    left: 330;
+    color: white;
+    font-weight: 400;
+    font: 'Roboto';
+    font-size: 17px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 10px;
+    line-height: 350px;
+}
+*/
+
+
+
+
+@media (max-width:1100px){
+    .corpinho{
+        width: 100%;
+    }
+}
+
+
