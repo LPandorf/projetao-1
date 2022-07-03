@@ -576,7 +576,56 @@ body{
         display: flex;
         flex-direction: column;
     }
-    
+    .retangulao{
+        width: 100%;
+    }
+    .retangulo{
+        width: 100%;
+    }
+    .prosseguir{
+        margin-left:8vw;
+        width: 324px;
+        left: 0;
+    }
+    .comece{
+        left: 0;
+        margin-left: 20vw;
+    }
+    .voltar{
+        margin-left: 30vw;
+        left: 0;
+        width: 100%;
+    }
+    /*pag3*/
+    .caixapergunta{
+        width: 100%;
+    }
+    .caixapergunta2{
+        width: 100%;
+    }
+    .perguntas_quizz{
+        width: 50%;
+    }
+    .img4{
+        width: 50vw;
+        height: 113px;
+    }
+    .imgper{
+        width: 50vw;
+        height: 113px;
+    }
+    .retangulovermelho{
+        width: 100%;
+        height: 60 px;
+    }
+    .acerto{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
 }
 
-
+@media (max-width:500px){
+    .img3{
+        width: 100%;
+    }
+}

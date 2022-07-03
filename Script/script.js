@@ -6,6 +6,8 @@ btn.addEventListener("click", function() {
     location.reload();
 });
 
+
+
 paraPage5() //vai da page 4 para a page 5
 
 paraPage6() //vai da page 5 para a page 6
