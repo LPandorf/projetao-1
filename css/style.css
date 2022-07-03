@@ -550,7 +550,10 @@ body{
 }
 */
 
-
+.coluna{
+    display: flex;
+    flex-direction: column;
+}
 
 
 @media (max-width:1100px){
@@ -576,16 +579,11 @@ body{
         display: flex;
         flex-direction: column;
     }
-    .retangulao{
-        width: 100%;
-    }
-    .retangulo{
-        width: 100%;
-    }
+
     .prosseguir{
         margin-left:8vw;
         width: 324px;
-        left: 0;
+        left: 30px;
     }
     .comece{
         left: 0;
@@ -594,7 +592,7 @@ body{
     .voltar{
         margin-left: 30vw;
         left: 0;
-        width: 100%;
+        width: 50vw;
     }
     /*pag3*/
     .caixapergunta{
@@ -622,12 +620,21 @@ body{
         margin-top: 5px;
         margin-bottom: 5px;
     }
-}
-
-@media (max-width:500px){
-    .img3{
+    .retangulao{
         width: 100%;
     }
+    .prosseguir{
+        margin-left: auto;
+    }
+    .retangulo{
+        width: 100%;
+    }
+    .todososquizzes{
+        width: 100vw;
+    }
 }
-
-
+@media (max-width:500px){
+.img3{
+    width: 100%;
+}
+}
