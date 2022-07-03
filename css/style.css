@@ -634,7 +634,7 @@ body{
     }
 }
 @media (max-width:500px){
-.img3{
-    width: 100%;
-}
+    .img3{
+        width: 100%;
+    }
 }
