@@ -32,3 +32,4 @@ function prosseguirCriarNiveis(){
 function finalizarQuizz(){
 
 }
+
