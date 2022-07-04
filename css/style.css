@@ -112,6 +112,9 @@ body{
     position: relative;
     
 }
+.link{
+    text-decoration: none;
+}
 /*--------------*/
 
 /*-------------*/
@@ -156,6 +159,10 @@ body{
     border: 2px dashed #EC362D;
     border-radius: 50px;
     margin-left: 35px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .criarbotao{
@@ -312,7 +319,7 @@ body{
     align-items: center;
     text-align: center;
 
-    
+    text-decoration: none;
     left: 340px;
 }
 .voltar{
@@ -333,6 +340,8 @@ body{
     line-height: 25px;
 
     color: #818181;
+
+    text-decoration: none;
 
 }
 .deixarladoalado{
