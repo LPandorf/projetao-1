@@ -410,6 +410,18 @@ body{
     justify-content: center;
     align-items: center;
 }
+.coluna{
+    display: flex;
+    flex-direction: column;
+}
+.retangulo2{
+    width: 700px;
+    height: 600px;
+    margin: auto;
+
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+}
 /*---------------*/
 
 
@@ -551,10 +563,7 @@ body{
 }
 */
 
-.coluna{
-    display: flex;
-    flex-direction: column;
-}
+
 
 
 @media (max-width:1100px){
@@ -624,10 +633,14 @@ body{
         margin-left: auto;
     }
     .retangulo{
-        width: 100%;
+        width: 95vw;
     }
     .todososquizzes{
         width: 100vw;
+    }
+    .retangulo2{
+        width: 100vw;
+        height: 550px;
     }
 }
 @media (max-width:500px){
