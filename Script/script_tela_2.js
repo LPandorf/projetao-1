@@ -1,6 +1,5 @@
 const question = document.getElementById('question'); 
 const choices = Array.from(document.getElementsByClassName('perguntas_quizz'));
-console.log(choices);
 
 let currentQuestion = {};
 let acceptingAnswer = true;
@@ -34,3 +33,13 @@ let questions = [
     }
 ]
 
+startgame = () => {
+
+    score = 0;
+    avaibleQuestions = [...questions];
+}
+
+choices.forEach(choice => {
+    const number = choice.dataset['number']; 
+    choice.innerText = currentQuestion["choices" + number];
+})
