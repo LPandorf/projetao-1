@@ -2,11 +2,7 @@ const question = document.getElementById('question');
 const choices = Array.from(document.getElementsByClassName('perguntas_quizz'));
 
 let currentQuestion = {};
-let acceptingAnswer = true;
 let score = 0;
-let questionCounter = 0;
-let avaibleQuestions = {};
-
 let questions = [
     {
     question:"Qual queijo é o brasileiro?",
@@ -33,13 +29,5 @@ let questions = [
     }
 ]
 
-startgame = () => {
+let 
 
-    score = 0;
-    avaibleQuestions = [...questions];
-}
-
-choices.forEach(choice => {
-    const number = choice.dataset['number']; 
-    choice.innerText = currentQuestion["choices" + number];
-})
