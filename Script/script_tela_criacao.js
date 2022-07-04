@@ -5,7 +5,7 @@ const urlAPI="https://mock-api.driven.com.br/api/v4/buzzquizz/quizzes";
 function prosseguirCriarPerguntas(){
     //pegar as variaveis que o usário coloca
 
-    //verificar de as respostas estão ok
+    //verificar se as respostas estão ok
     if(!checkUrl(linkaqui)){
 
     }else{
