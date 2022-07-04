@@ -6,7 +6,13 @@ btn.addEventListener("click", function() {
     location.reload();
 / }); */
 
-const botao = document.createElement("button");
+
+
+
+
+
+
+
 
 
 
