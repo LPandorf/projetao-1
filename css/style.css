@@ -642,6 +642,9 @@ body{
         width: 100vw;
         height: 550px;
     }
+    .quizz{
+        width: 95vw;
+    }
 }
 @media (max-width:500px){
     .img3{
