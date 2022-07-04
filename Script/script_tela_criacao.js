@@ -2,6 +2,8 @@ const urlAPI="https://mock-api.driven.com.br/api/v4/buzzquizz/quizzes";
 
 
 //ver se pode ir para a proxima pag e enviar para proxima pag
+
+//pag4
 function prosseguirCriarPerguntas(){
     //pegar as variaveis que o usário coloca
 
@@ -21,10 +23,12 @@ function prosseguirCriarPerguntas(){
     }
 }
 
+//pag5
 function prosseguirCriarNiveis(){
 
 }
 
+//pag6
 function finalizarQuizz(){
 
 }
