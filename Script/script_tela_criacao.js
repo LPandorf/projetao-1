@@ -1,0 +1,30 @@
+const urlAPI="https://mock-api.driven.com.br/api/v4/buzzquizz/quizzes";
+
+
+//ver se pode ir para a proxima pag e enviar para proxima pag
+function prosseguirCriarPerguntas(){
+    //pegar as variaveis que o usário coloca
+
+    //verificar de as respostas estão ok
+    if(!checkUrl(linkaqui)){
+
+    }else{
+        if((quantidade de perguntas)!=3){
+
+        }else{
+            if((quantidade de niveis)!=3){
+
+            }else{
+                // direcionar para a proxima pagina
+            }
+        }
+    }
+}
+
+function prosseguirCriarNiveis(){
+
+}
+
+function finalizarQuizz(){
+
+}
